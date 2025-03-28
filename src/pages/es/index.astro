@@ -30,32 +30,34 @@ const avatarSrcs: Array<string> = [
 <MainLayout lang="es">
   <AnnouncementBanner
     btnId="dismiss-button"
-    btnTitle="Descubre nuestra documentación"
+    btnTitle="Solicita tu presupuesto gratuito"
     url="https://github.com/mearashadowfax/ScrewFast"
   />
 
   <HeroSection
-    title=`Equipa tus proyectos con <span class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>`
-    subTitle="Herramientas de alta calidad y servicios expertos en construcción para todas tus necesidades de proyectos."
-    primaryBtn="Empieza a explorar"
+    title={`Expertos en <span class="text-yellow-500 dark:text-yellow-400">Yeso Laminado</span>`}
+    subTitle="Instalación profesional de placas de yeso laminado y aplicaciones de yeso para reformas e interiores en toda España."
+    primaryBtn="Ver nuestros servicios"
     primaryBtnURL={getRelativeLocaleUrl("es", "products")}
-    secondaryBtn="Contacta con el equipo comercial"
+    secondaryBtn="Solicitar presupuesto"
     secondaryBtnURL={getRelativeLocaleUrl("es", "contact")}
     withReview={true}
     avatars={avatarSrcs}
-    rating=`<span class="font-bold">4.8</span> / 5`
-    starCount={4}
-    reviews=`Basado en más de <span class="font-bold">12,8k</span> opiniones`
+    rating={`<span class="font-bold">4.9</span> / 5`}
+    starCount={5}
+    reviews={`Basado en más de <span class="font-bold">500</span> clientes satisfechos`}
     src={heroImage}
-    alt="Pila de cajas de productos ScrewFast con herramientas variadas"
+    alt="Instalación profesional de placas de yeso"
   />
-<ClientsSection title="Confianza de los líderes de la industria" subTitle="Conoce la fiabilidad que eligen los gigantes del sector." />
 
-<FeaturesGeneral title="Cumplir con las exigencias del sector" subTitle="En ScrewFast, afrontamos los desafíos únicos que se encuentran en los sectores de herramientas y construcción. Desde herramientas de última generación hasta servicios expertos, estamos comprometidos en ayudarte a superar obstáculos y alcanzar tus objetivos." src={featureImage} alt="Productos ScrewFast en cajas flotantes" features={features} />
+  <ClientsSection title="Confianza y Calidad Garantizada" subTitle="Más de 15 años ofreciendo soluciones profesionales a particulares y empresas líderes en España." />
 
+  <FeaturesGeneral title="Soluciones adaptadas a cada proyecto" subTitle="Desde reformas integrales hasta aislamientos térmicos y acústicos, ofrecemos un servicio especializado en yeso laminado con materiales de primera calidad y acabados perfectos." src={featureImage} alt="Proyecto terminado con placas de yeso" features={features} />
 
+  <PricingSection pricing={pricing} />
 
-<PricingSection pricing={pricing} /> <FAQ title="Preguntas<br />frecuentes" faqs={faqs} />
-<HeroSectionAlt title="Construyamos juntos" subTitle="ScrewFast es un modelo open source, cuidadosamente diseñado con los frameworks Astro, Tailwind CSS y Preline UI." url="https://github.com/mearashadowfax/ScrewFast" /> 
+  <FAQ title="Preguntas<br />frecuentes" faqs={faqs} />
+
+  <HeroSectionAlt title="Empieza tu reforma hoy mismo" subTitle="Cuéntanos tu proyecto y descubre cómo podemos ayudarte a transformar tu espacio con nuestros expertos instaladores." url="https://github.com/mearashadowfax/ScrewFast" />
 
 </MainLayout>

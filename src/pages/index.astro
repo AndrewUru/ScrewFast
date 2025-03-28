@@ -30,105 +30,103 @@ const avatarSrcs: Array<string> = [
 <MainLayout>
   <AnnouncementBanner
     btnId="dismiss-button"
-    btnTitle="Explore ScrewFast on GitHub"
-    url="https://github.com/mearashadowfax/ScrewFast"
+    btnTitle="Consulta nuestros servicios"
+    url="/servicios"
   />
 
   <HeroSection
-    title=`Equip Your Projects with <span
-        class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>`
-    subTitle="Top-quality hardware tools and expert construction services for every project need."
-    primaryBtn="Start Exploring"
-    primaryBtnURL="/products"
-    secondaryBtn="Contact Sales Team"
-    secondaryBtnURL="/contact"
+    title={`Soluciones Profesionales en <span class="text-green-500 dark:text-green-400">Placas de Yeso Laminado</span>`}
+    subTitle="Instalación especializada de tabiques, techos y soluciones acústicas para proyectos residenciales y comerciales."
+    primaryBtn="Ver Servicios"
+    primaryBtnURL="/servicios"
+    secondaryBtn="Solicita Presupuesto"
+    secondaryBtnURL="/contacto"
     withReview={true}
     avatars={avatarSrcs}
-    rating=`<span class="font-bold">4.8</span> / 5`
-    starCount={4}
-    reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
+    rating={`<span class="font-bold">4.9</span> / 5`}
+    starCount={5}
+    reviews={`Basado en más de <span class="font-bold">950</span> opiniones`}
     src={heroImage}
-    alt="Stack of ScrewFast product boxes containing assorted hardware tools"
+    alt="Placas de yeso laminado listas para instalación"
   />
 
   <ClientsSection
-    title="Confiado por los Líderes de la Industria"
-    subTitle="Experimenta la fiabilidad elegida por los gigantes de la industria."
+    title="Nuestros Clientes Confían en Nosotros"
+    subTitle="Calidad y eficiencia avalada por nuestros clientes en el sector construcción."
   />
 
   <FeaturesGeneral
-    title="Cumpliendo con las Demandas de la Industria"
-    subTitle="En ScrewFast, abordamos los desafíos únicos que se presentan en los sectores de herramientas y construcción. Desde herramientas de vanguardia hasta servicios expertos, estamos dedicados a ayudarte a superar obstáculos y alcanzar tus objetivos."
+    title="Comprometidos con la Excelencia Constructiva"
+    subTitle="Enfocados en ofrecer instalaciones rápidas, limpias y profesionales de placas de yeso laminado. Garantizamos resultados duraderos y de alta calidad."
     src={featureImage}
-    alt="Productos ScrewFast en cajas flotantes"
+    alt="Instaladores trabajando en placas de yeso laminado"
     features={features}
   />
 
   <FeaturesNavs
-    title=`Personaliza las ofertas de <span class="text-yellow-500 dark:text-yellow-400">ScrewFast</span> para adaptarlas perfectamente a tus necesidades de herramientas y construcción.`
+    title={`Adaptamos cada proyecto con <span class="text-green-500 dark:text-green-400">soluciones en placas de yeso laminado</span> personalizadas.`}
     tabs={[
       {
-        heading: "Herramientas de Vanguardia",
+        heading: "Instalaciones Precisas",
         content:
-          "Impulsa tus proyectos con las herramientas de vanguardia de ScrewFast. Experimenta una mayor eficiencia en la gestión de la construcción con nuestras sofisticadas soluciones automatizadas.",
+          "Utilizamos técnicas avanzadas para asegurar que cada instalación de placas de yeso sea precisa, eficiente y adaptada perfectamente a tus necesidades.",
         svg: "tools",
         src: tools,
-        alt: "Equipo pesado amarillo y negro en un campo de hierba seca",
+        alt: "Herramientas de precisión para instalar placas de yeso",
         first: true,
       },
       {
-        heading: "Tableros Intuitivos",
+        heading: "Acabados de Calidad",
         content:
-          "Navega con facilidad usando los tableros intuitivos de ScrewFast. Configura y supervisa tus proyectos sin problemas, con interfaces fáciles de usar diseñadas para una gestión rápida y eficaz del flujo de trabajo.",
+          "Garantizamos acabados impecables con atención al detalle, proporcionando un aspecto profesional y duradero para cada espacio.",
         svg: "dashboard",
         src: dashboard,
-        alt: "Captura de pantalla o representación gráfica del tablero intuitivo",
+        alt: "Proyectos con acabados detallados en placas de yeso",
         second: true,
       },
       {
-        heading: "Características Robustas",
+        heading: "Soluciones Acústicas",
         content:
-          "Minimiza la complejidad, maximiza la productividad. Las características robustas de ScrewFast están diseñadas para optimizar tu proceso de construcción, ofreciendo resultados que destacan por su excelencia.",
+          "Mejora el confort acústico de tus ambientes con nuestras placas de yeso especializadas en aislamiento acústico, ideales para oficinas y hogares.",
         svg: "house",
         src: construction,
-        alt: "Estructura metálica gris de un edificio cerca de una grúa torre durante el día",
+        alt: "Instalación de aislamiento acústico con placas de yeso laminado",
       },
     ]}
   />
 
-
   <TestimonialsSection
-    title="Acelera tus Proyectos"
-    subTitle="En ScrewFast, garantizamos un inicio rápido con la configuración instantánea de cuentas. Experimenta la velocidad redefinida en la construcción."
+    title="Impulsa tu Proyecto con Nosotros"
+    subTitle="Instalaciones rápidas y eficientes con resultados superiores. Descubre por qué somos líderes en placas de yeso laminado."
     testimonials={[
       {
         content:
-          "ScrewFast aumentó dramáticamente la eficiencia de nuestro proyecto. La configuración fue instantánea, y sus tiempos de respuesta rápidos son fenomenales. ¡Realmente un cambio revolucionario en el soporte de herramientas y construcción!",
-        author: "Samantha Ruiz",
-        role: "Directora de Operaciones | ConstructIt Inc.",
+          "La instalación realizada por esta empresa fue rápida, precisa y extremadamente limpia. El resultado superó ampliamente nuestras expectativas. ¡Muy recomendables!",
+        author: "Javier González",
+        role: "Gerente de Proyectos | Edifica SL",
         avatarSrc:
           "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=1453&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
       },
     ]}
     statistics={[
       {
-        count: "70k+",
+        count: "500+",
         description:
-          "clientes equipados: desde aficionados al bricolaje hasta grandes empresas de construcción",
+          "proyectos exitosos realizados en viviendas y oficinas comerciales",
       },
       {
-        count: "35%",
+        count: "45%",
         description:
-          "aumento en la eficiencia de los proyectos con las herramientas y servicios de ScrewFast",
+          "mejora en eficiencia energética gracias a nuestras soluciones aislantes",
       },
       {
-        count: "15,3%",
+        count: "20%",
         description:
-          "reducción en los costos de mantenimiento reportada por clientes a largo plazo",
+          "reducción del tiempo habitual de instalación comparado con métodos tradicionales",
       },
       {
-        count: "2x",
-        description: "ensamblaje más rápido gracias a soluciones innovadoras de fijación",
+        count: "3x",
+        description: "mejora en confort acústico con nuestras instalaciones especializadas",
       },
     ]}
   />
@@ -138,8 +136,8 @@ const avatarSrcs: Array<string> = [
   <FAQ title="Preguntas<br />frecuentes" faqs={faqs} />
 
   <HeroSectionAlt
-    title="Construyamos Juntos"
-    subTitle="ScrewFast es una plantilla de código abierto, meticulosamente diseñada con los frameworks Astro, Tailwind CSS y Preline UI."
-    url="https://github.com/mearashadowfax/ScrewFast"
+    title="Construye con los Mejores"
+    subTitle="Solicita ahora un presupuesto sin compromiso y da el primer paso hacia la calidad y excelencia en tus instalaciones de placas de yeso laminado."
+    url="/contacto"
   />
 </MainLayout>
